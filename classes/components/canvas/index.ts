@@ -9,8 +9,8 @@ import {
   Transform,
 } from "ogl-typescript";
 
-import fragment from "../../../shaders/plane-fragment.glsl";
-import vertex from "../../../shaders/plane-vertex.glsl";
+// import fragment from "../../../shaders/plane-fragment.glsl";
+// import vertex from "../../../shaders/plane-vertex.glsl";
 import Home from "./Home";
 
 export default class Canvas {
@@ -26,7 +26,7 @@ export default class Canvas {
     this.createCamera();
     this.createScene();
     // this.createBox();
-    this.createHome();
+    // this.createHome();
   }
 
   createRender() {
@@ -53,15 +53,12 @@ export default class Canvas {
   }
 
   createHome() {
-    const home = new Home({ gl: this.gl });
+    //  const home = new Home({ gl: this.gl });
   }
 
   createBox() {
     this.geometry = new Box(this.gl);
-    this.program = new Program(this.gl, {
-      vertex: vertex,
-      fragment: fragment,
-    });
+    this.program = new Program(this.gl, {});
 
     this.mesh = new Mesh(this.gl, {
       geometry: this.geometry,

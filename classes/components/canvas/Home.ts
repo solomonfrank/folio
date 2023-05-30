@@ -22,7 +22,7 @@ export default class Home {
   createGallery() {
     each(this.medias, (entry, key) => {
       return new Media({
-        element: entry as HTMLElement,
+        element: entry as HTMLImageElement,
         geometry: this.geomtry,
         gl: this.gl,
         scene: this.scene,
