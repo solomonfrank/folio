@@ -2,11 +2,99 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "onest";
+  font-display: swap;
+  font-weight: 400;
+  src: url("../public/assets/fonts/OnestRegular.woff");
+}
+
+@font-face {
+  font-family: "onest";
+  font-display: swap;
+  font-weight: 500;
+  src: url("../public/assets/fonts/OnestMedium.woff");
+}
+
+@font-face {
+  font-family: "onest";
+  font-display: swap;
+  font-weight: 600;
+  src: url("../public/assets/fonts/OnestBold.woff");
+}
+
+@font-face {
+  font-family: "onest";
+  font-display: swap;
+  font-weight: 700;
+  src: url("../public/assets/fonts/OnestBlack.woff");
+}
+
+
+
+@font-face {
+  font-family: 'merriweather';
+  font-display: swap;
+  font-weight: 300;
+  src: url('../public/assets/fonts/merriweather.light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'merriweather';
+  font-display: swap;
+  font-weight: 400;
+  src: url('../public/assets/fonts/merriweather.regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'merriweather';
+  font-display: swap;
+  font-weight: 600;
+  src: url('../public/assets/fonts/merriweather.bold.woff') format('woff');
+}
+
+
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+
+ html, body {
+ position: fixed;
+  width: 100%;
+  height: 100%;
+  left:0;
+  top: 0;
+} 
+
+html, body, #__next, #root {
+  height: 100%;
+}
+
+#__next {
+  width: 100%;
+  height: 100%;
+  left:0;
+  top: 0;
+  position: absolute;
+
+} 
+
+
+
+/* html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html, body, #__next, #root {
+  height: 100%;
+} */
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -18,10 +106,169 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ background-color: rgb(17, 24, 39);
+}
+
+.stg-c {
+  display: inline-block;
+}
+
+
+[data-animation='title'] {
+display: inline-block;
+}
+
+[data-animation='title'] span {
+  display: inline-block;
+  overflow: hidden;
+  backface-visibility: hidden;
+
+}
+
+[data-animation='title'] span .word { 
+  backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
+  font-kerning: none;
+
+}
+
+/* [data-animation='title'] .word {
+  display: inline-block;
+  overflow: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
+} */
+
+.ascii {
+  background-color: rgb(17, 24, 39);
+  color:rgb(156, 163, 175);
+  /* color:rgba(97, 220, 163, 0.5); */
+  font-family: monospace;
+  font-size: .65rem;
+  line-height: 1.1;
+  padding: 1rem;
+  white-space: pre;
+  opacity: 0;
+  will-change: visibility, opacity;
+  width: 100%;
+
+}
+
+
+.Home {
+  will-change: visibility, opacity;
+}
+.about-img {
+  opacity: 1;
+  
+}
+
+
+.intro {
+  position: relative;
+}
+
+
+.intro-title {
+  position: relative;
+  font-size: 1.5rem;
+;
+}
+
+.intro-title .line {
+  display: inline-block;
+  overflow: hidden;
+  will-change: transform;
+  font-kerning: none;
+}
+
+.intro-title .line span {
+  display: inline-block;
+  overflow: hidden;
+  font-kerning: none;
+
+
+}
+/* 
+.intro-title span {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.intro-title span span {
+  font-size: 1.5rem;
+
+} */
+
+
+
+[data-animation='summary'] .line .line {
+  display: inline-block;
+  overflow: hidden;
+  will-change: transform;
+  font-kerning: none;
+}
+
+/* .main-container  canvas {
+  position: fixed;
+  top:0;
+  left:0
+} */
+
+.project-img-container {
+  overflow: hidden;
+  will-change: opacity visibility;
+  position: relative;
+  width: 540px;
+  height: 400px;
+}
+/* 
+  .project-img-container::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  right:0;
+  background-color: rgb(17, 24, 39);
+  width: 100%;
+}    */
+
+.project-img {
+  width: 99%;
+  height: 99%;
+  position: absolute;
+}
+
+[data-animation='projectDescription']  {
+opacity: 0;
+visibility: hidden;
+ 
+}
+
+
+
+.project-d-title {
+  display: inline-block;
+  overflow: hidden;
+
+}
+
+.project-d-title .word {
+  display: inline-block;
+  overflow: hidden;
+  will-change: transform;
+}
+.project-d-title .word .char {
+  display: inline-block;
+  will-change: transform;
+  font-kerning: none;
+}
+
+.project-d-para .line .line {
+  display: inline-block;
+  overflow: hidden;
+  will-change: transform;
+  font-kerning: none;
 }
