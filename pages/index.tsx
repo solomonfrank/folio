@@ -67,9 +67,9 @@ export default function Home() {
               with years of experience in building products and appealing web
               experiences.
               <br />
-              I've collaborated with individuals and teams to build experiences
-              for small and large enterprises including Pericius, Africa
-              prudential, Cashbox.
+              I&apos;ve collaborated with individuals and teams to build
+              experiences for small and large enterprises including Pericius,
+              Africa prudential, Cashbox.
               <br /> Each project is an opportuinity to learn new concepts
               across multiple domains including arts, maths and physics.
             </div>
