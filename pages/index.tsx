@@ -157,6 +157,10 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <h4 className="text-gray-400 text-center p-7">
+          Want to take your project to the next level? message me <br />
+          <span className="text-white text-2xl">enweremrock@gmail.com</span>
+        </h4>
       </section>
     </MainLayout>
   );

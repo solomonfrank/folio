@@ -23,7 +23,7 @@ const NavHeader = () => {
           <li className="cursor-pointer px-6 py-2 hover:text-white  text-base">
             <Link
               href="#homeContainer"
-              className="block hover:border-b-2 active:border-b-2 whitespace-nowrap"
+              className="block  active:border-b-2 whitespace-nowrap"
             >
               About
             </Link>
@@ -31,17 +31,27 @@ const NavHeader = () => {
           <li className="cursor-pointer px-6 py-2 hover:text-white  text-base">
             <Link
               href="#project-section"
-              className="block hover:border-b-2 active:border-b-2 whitespace-nowrap"
+              className="block  active:border-b-2 whitespace-nowrap"
             >
               Work
             </Link>
           </li>
-          <li className="cursor-pointer px-6 py-2 hover:text-white text-base">
+
+          {/* <li className="cursor-pointer px-6 py-2 hover:text-white text-base">
             <Link
               href="/#"
               className="block hover:border-b-2 active:border-b-2 whitespace-nowrap"
             >
               Blog
+            </Link>
+          </li> */}
+          <li className="cursor-pointer px-6 py-2 hover:text-white text-base">
+            <Link
+              target="_blank"
+              href="https://drive.google.com/file/d/1H6WdnYkKBnAShq49BaNpdf5H729NOEZu/view?usp=sharing"
+              className="block hover:border-b-2 active:border-b-2 whitespace-nowrap"
+            >
+              Resume
             </Link>
           </li>
         </ul>
