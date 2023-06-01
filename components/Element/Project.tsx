@@ -41,9 +41,13 @@ export const Project = ({
           <h4>Tech stack</h4>
           <div className="mb-3 text-gray-400">{stacks}</div>
 
-          <button className="border-2 w-48 py-2 rounded-md">
-            <Link href={url}>Visit</Link>
-          </button>
+          <Link
+            href={url}
+            target="_blank"
+            className="border-2 w-48 py-2 rounded-md inline-block text-center"
+          >
+            Visit
+          </Link>
         </div>
         <div
           ref={ref}

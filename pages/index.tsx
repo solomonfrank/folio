@@ -44,10 +44,12 @@ export default function Home() {
       <section
         className="homeContainer sectionWrapper"
         ref={sectionRef}
+        id="homeContainer"
         data-scroll-section
       >
         <header
           // ref={scope}
+
           className="header flex mx-auto  w-[90%] pt-2  mb-24"
         >
           <div className="w-3/5 relative" ref={ref}>
@@ -71,7 +73,7 @@ export default function Home() {
               experiences for small and large enterprises including Pericius,
               Africa prudential, Cashbox.
               <br /> Each project is an opportuinity to learn new concepts
-              across multiple domains including arts, maths and physics.
+              across multiple domains.
             </div>
           </div>
           <div className="w-2/5">
@@ -96,12 +98,23 @@ export default function Home() {
             events such as annual general meetings, corporate events,
             art shows, music concerts, religious events, meetings and
             much more."
-                stacks="React,Typescript"
-                url="#"
+                stacks="ReactJs, Docker, Git, Jira, Ant Design, Google Analytics, Sentry, websocket, AWS IVS, Zoom web
+                sdk, Xd adobe, SEO, Redux, React-query, React-Helmet, SASS, CSS Module"
+                url="https://apems.co"
                 orderLeft="order-last"
                 orderRight="order-first"
                 src={Apems}
                 index={0}
+              />
+              <Project
+                title="Delivery Page"
+                description="Delivery Page is a multi-tenant last-mile delivery software that helps delivery companies easily create their own website, accept online bookings and payments, and track their riders in real-time."
+                stacks="ReactJs, Git, Ant Design, Google Analytics,Figma, SEO, Redux, React-query, React-Helmet, SASS, CSS Module, Google map sdk"
+                url="https://deliverypage.africa"
+                orderLeft="order-first"
+                orderRight="order-last"
+                src={DeliveryPage}
+                index={2}
               />
 
               <Project
@@ -110,37 +123,18 @@ export default function Home() {
               “Make saving a habit”. CashBox was founded as a fun way to
               encourage a healthy saving habit and help curb excessive
               spending all on a seamless and easy-to-use interface."
-                stacks="React,Typescript"
-                url="#"
-                orderLeft="order-first"
-                orderRight="order-last"
-                src={Cashboxng}
-                index={1}
-              />
-
-              <Project
-                title="Delivery Page"
-                description="APEMS is an innovative event management solution that lets
-            you seamlessly and efficiently execute virtual and hybrid
-            events such as annual general meetings, corporate events,
-            art shows, music concerts, religious events, meetings and
-            much more."
-                stacks="React,Typescript"
+                stacks="ReactJs, Git, Gitlab, Azure board, Google Analytics,Figma, Sentry, Redux, SASS, Bootstrap, Websocket"
                 url="#"
                 orderLeft="order-last"
                 orderRight="order-first"
-                src={DeliveryPage}
-                index={2}
+                src={Cashboxng}
+                index={1}
               />
-
               <Project
                 title="Zondo"
-                description="CashBox is a digital savings platform that helps everyone
-              “Make saving a habit”. CashBox was founded as a fun way to
-              encourage a healthy saving habit and help curb excessive
-              spending all on a seamless and easy-to-use interface."
-                stacks="React,Typescript"
-                url="#"
+                description="Zondos is an email and SMS delivery solution. The software allows users to send and design their own promotional, newsletters, transactional emails and SMS, and features database management, email and SMS automation, landing page management, API and integrations, and more."
+                stacks="ReactJs, Typescript, Git, Ant Design, Google Analytics,Figma, SEO, Redux, React-query, React-Helmet, SASS, CSS Module"
+                url="https://zondo.vercel.app"
                 orderLeft="order-first"
                 orderRight="order-last"
                 src={Zondo}
@@ -153,7 +147,7 @@ export default function Home() {
               “Make saving a habit”. CashBox was founded as a fun way to
               encourage a healthy saving habit and help curb excessive
               spending all on a seamless and easy-to-use interface."
-                stacks="React,Typescript"
+                stacks="ReactJs, Git, Ant Design, Google Analytics,Figma, SEO, Redux, SASS, CSS Module, websocket"
                 url="#"
                 orderLeft="order-last"
                 orderRight="order-first"

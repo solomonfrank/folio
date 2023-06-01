@@ -22,7 +22,7 @@ const NavHeader = () => {
         <ul className="flex ">
           <li className="cursor-pointer px-6 py-2 hover:text-white  text-base">
             <Link
-              href="#project-section"
+              href="#homeContainer"
               className="block hover:border-b-2 active:border-b-2 whitespace-nowrap"
             >
               About
@@ -30,7 +30,7 @@ const NavHeader = () => {
           </li>
           <li className="cursor-pointer px-6 py-2 hover:text-white  text-base">
             <Link
-              href="/#"
+              href="#project-section"
               className="block hover:border-b-2 active:border-b-2 whitespace-nowrap"
             >
               Work
@@ -45,7 +45,7 @@ const NavHeader = () => {
             </Link>
           </li>
         </ul>
-        <div>
+        {/* <div>
           <div className="toggle-bar flex items-center gap-3">
             <div className="sun-wrapper">
               <svg
@@ -71,7 +71,7 @@ const NavHeader = () => {
               </svg>
             </div>
           </div>
-        </div>
+        </div> */}
       </nav>
     </div>
   );
