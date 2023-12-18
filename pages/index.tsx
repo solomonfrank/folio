@@ -6,6 +6,7 @@ import Apems from "../public/assets/images/apems.png";
 import Cashboxng from "../public/assets/images/cashbox.png";
 import DeliveryPage from "../public/assets/images/delivery.png";
 import Zondo from "../public/assets/images/zondo.png";
+import CodeSand from "../public/assets/images/codecon.PNG";
 import Tefconect from "../public/assets/images/tef.png";
 import { Project } from "@/components/Element/Project";
 import { useRef } from "react";
@@ -152,6 +153,17 @@ export default function Home() {
                 orderLeft="order-last"
                 orderRight="order-first"
                 src={Tefconect}
+                index={4}
+              />
+
+              <Project
+                title="Codesandbox clone"
+                description="Codesandbox clone"
+                stacks="ReactJs, Git, Typescript, framer-motion, Tailwindcss, Javascript"
+                url="https://codesanbox-clone.vercel.app/"
+                orderRight="order-last"
+                orderLeft="order-first"
+                src={CodeSand}
                 index={4}
               />
             </div>
