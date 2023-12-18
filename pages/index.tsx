@@ -9,7 +9,7 @@ import Zondo from "../public/assets/images/zondo.png";
 import CodeSand from "../public/assets/images/codesand.png";
 import Tefconect from "../public/assets/images/tef.png";
 import { Project } from "@/components/Element/Project";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 import { GetStaticProps } from "next";
 import { jj } from "@/utils/img";
@@ -85,7 +85,7 @@ export default function Home() {
         <section>
           <div className="w-[90%] mx-auto py-7">
             <h4
-              data-animation="title"
+              // data-animation="title"
               className="text-white text-2xl uppercase mb-7"
             >
               Recent Projects

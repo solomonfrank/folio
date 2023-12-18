@@ -64,7 +64,7 @@ export default class Page extends EventEmitter {
       target: 0,
       current: 0,
       last: 0,
-      limit: 2700,
+      limit: 3500,
     };
     if (typeof this.selector === "string") {
       this.element = document.querySelector(this.selector) as HTMLElement;

@@ -106,7 +106,7 @@ export const MainLayout = ({ children, pageName }: MainLayoutProps) => {
       </div> */}
       <Preloader />
       <div
-        className={`main-container ${pageName} invisible absolute w-full bg-gray-900 h-[100%]`}
+        className={`main-container ${pageName} top-0 left-0 invisible absolute w-full bg-gray-900 h-full`}
       >
         <NavHeader />
 
