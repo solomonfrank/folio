@@ -6,7 +6,7 @@ import Apems from "../public/assets/images/apems.png";
 import Cashboxng from "../public/assets/images/cashbox.png";
 import DeliveryPage from "../public/assets/images/delivery.png";
 import Zondo from "../public/assets/images/zondo.png";
-import CodeSand from "../public/assets/images/codecon.png";
+import CodeSand from "../public/assets/images/codesand.png";
 import Tefconect from "../public/assets/images/tef.png";
 import { Project } from "@/components/Element/Project";
 import { useRef } from "react";
