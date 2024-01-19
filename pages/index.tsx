@@ -2,18 +2,19 @@ import { MainLayout } from "@/components/Layout";
 import { useAnimate } from "framer-motion";
 import { gsap } from "gsap";
 
-import Apems from "../public/assets/images/apems.png";
-import Cashboxng from "../public/assets/images/cashbox.png";
-import DeliveryPage from "../public/assets/images/delivery.png";
-import Zondo from "../public/assets/images/zondo.png";
-import CodeSand from "../public/assets/images/codesand.png";
-import Tefconect from "../public/assets/images/tef.png";
 import { Project } from "@/components/Element/Project";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
+import Apems from "../public/assets/images/apems.png";
+import Bandage from "../public/assets/images/bandage.webp";
+import Cashboxng from "../public/assets/images/cashbox.png";
+import CodeSand from "../public/assets/images/codesand.png";
+import DeliveryPage from "../public/assets/images/delivery.png";
+import Tefconect from "../public/assets/images/tef.png";
+import Zondo from "../public/assets/images/zondo.png";
 
-import { GetStaticProps } from "next";
 import { jj } from "@/utils/img";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { GetStaticProps } from "next";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -164,7 +165,18 @@ export default function Home() {
                 orderRight="order-last"
                 orderLeft="order-first"
                 src={CodeSand}
-                index={4}
+                index={5}
+              />
+
+              <Project
+                title="Bandage"
+                description="Bandage is a shopping platform "
+                stacks="ReactJs, NextJs, Typescript, Material UI, Redux ToolKit, Javascript"
+                url="https://bandage-tech.vercel.app/"
+                orderRight="order-first"
+                orderLeft="order-last"
+                src={Bandage}
+                index={6}
               />
             </div>
           </div>

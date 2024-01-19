@@ -1,10 +1,10 @@
+import ProjectDecription from "@/animations/ProjectDescription";
+import ProjectImg from "@/animations/ProjectImage";
 import Title from "@/animations/Title";
+import EventEmitter from "events";
 import { gsap } from "gsap";
 import each from "lodash/each";
 import map from "lodash/map";
-import EventEmitter from "events";
-import ProjectImg from "@/animations/ProjectImage";
-import ProjectDecription from "@/animations/ProjectDescription";
 
 type ElementType = HTMLElement | NodeList | string;
 
@@ -64,7 +64,7 @@ export default class Page extends EventEmitter {
       target: 0,
       current: 0,
       last: 0,
-      limit: 3500,
+      limit: 4000,
     };
     if (typeof this.selector === "string") {
       this.element = document.querySelector(this.selector) as HTMLElement;

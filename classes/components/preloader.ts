@@ -1,8 +1,8 @@
-import each from "lodash/each";
-import { gsap } from "gsap";
 import { split } from "@/utils/text";
-import Component from "./index";
+import { gsap } from "gsap";
+import each from "lodash/each";
 import SplitType from "split-type";
+import Component from "./index";
 
 const imagePath = [
   "/assets/images/devp.png",
@@ -11,6 +11,7 @@ const imagePath = [
   "/assets/images/cashbox.png",
   "/assets/images/devp.png",
   "/assets/images/tef.png",
+  "/assets/images/bandage.webp",
 ];
 type ElementType = HTMLElement | NodeList | null;
 export default class Preloader extends Component {
