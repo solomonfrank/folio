@@ -112,7 +112,7 @@ export default function Home() {
                 title="Tefconnect"
                 description="TEFConnect is a digital networking platform that connects African entrepreneurs with opportunities, investors, and other entrepreneurs"
                 stacks="ReactJs, Git, Ant Design, Google Analytics,Figma, SEO, Redux, SASS, CSS Module, websocket"
-                url="#https://tefconnect.com/"
+                url="https://tefconnect.com"
                 orderLeft="order-first"
                 orderRight="order-last"
                 src={Tefconect}
