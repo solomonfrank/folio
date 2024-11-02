@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Preloader from "../Preloader";
 import { useRef } from "react";
+import Preloader from "../Preloader";
 
 type MainLayoutProps = {
   children: React.ReactNode;
@@ -48,7 +48,7 @@ const NavHeader = () => {
           <li className="cursor-pointer px-6 py-2 hover:text-white text-base">
             <Link
               target="_blank"
-              href="https://drive.google.com/file/d/1H6WdnYkKBnAShq49BaNpdf5H729NOEZu/view?usp=sharing"
+              href="https://docs.google.com/document/d/17AWMgG7yGyvH9nJv8_G4xf8uI3Ar3OJMS7AHQfGUiUw"
               className="block hover:border-b-2 active:border-b-2 whitespace-nowrap"
             >
               Resume

@@ -109,12 +109,22 @@ export default function Home() {
                 index={0}
               />
               <Project
+                title="Tefconnect"
+                description="TEFConnect is a digital networking platform that connects African entrepreneurs with opportunities, investors, and other entrepreneurs"
+                stacks="ReactJs, Git, Ant Design, Google Analytics,Figma, SEO, Redux, SASS, CSS Module, websocket"
+                url="#https://tefconnect.com/"
+                orderLeft="order-first"
+                orderRight="order-last"
+                src={Tefconect}
+                index={1}
+              />
+              <Project
                 title="Delivery Page"
                 description="Delivery Page is a multi-tenant last-mile delivery software that helps delivery companies easily create their own website, accept online bookings and payments, and track their riders in real-time."
                 stacks="ReactJs, Git, Ant Design, Google Analytics,Figma, SEO, Redux, React-query, React-Helmet, SASS, CSS Module, Google map sdk"
                 url="https://deliverypage.africa"
-                orderLeft="order-first"
-                orderRight="order-last"
+                orderLeft="order-last"
+                orderRight="order-first"
                 src={DeliveryPage}
                 index={2}
               />
@@ -126,34 +136,20 @@ export default function Home() {
               encourage a healthy saving habit and help curb excessive
               spending all on a seamless and easy-to-use interface."
                 stacks="ReactJs, Git, Gitlab, Azure board, Google Analytics,Figma, Sentry, Redux, SASS, Bootstrap, Websocket"
-                url="#"
-                orderLeft="order-last"
-                orderRight="order-first"
+                url="https://app.cashboxng.com"
+                orderLeft="order-first"
+                orderRight="order-last"
                 src={Cashboxng}
-                index={1}
+                index={3}
               />
               <Project
                 title="Zondo"
                 description="Zondos is an email and SMS delivery solution. The software allows users to send and design their own promotional, newsletters, transactional emails and SMS, and features database management, email and SMS automation, landing page management, API and integrations, and more."
                 stacks="ReactJs, Typescript, Git, Ant Design, Google Analytics,Figma, SEO, Redux, React-query, React-Helmet, SASS, CSS Module"
                 url="https://zondo.vercel.app"
-                orderLeft="order-first"
-                orderRight="order-last"
-                src={Zondo}
-                index={3}
-              />
-
-              <Project
-                title="Tefconnect"
-                description="CashBox is a digital savings platform that helps everyone
-              “Make saving a habit”. CashBox was founded as a fun way to
-              encourage a healthy saving habit and help curb excessive
-              spending all on a seamless and easy-to-use interface."
-                stacks="ReactJs, Git, Ant Design, Google Analytics,Figma, SEO, Redux, SASS, CSS Module, websocket"
-                url="#"
                 orderLeft="order-last"
                 orderRight="order-first"
-                src={Tefconect}
+                src={Zondo}
                 index={4}
               />
 
